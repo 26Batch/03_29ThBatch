@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity_Retesting_Regreesion_Suite">
+  <test thread-count="5" name="Sanity_Retesting_Regreesion_Test">
+   <groups>
+	   <run>
+		   <include name="Sanity"></include>
+		  
+	   </run>
+   </groups>
+    <classes>
+      <class name="testCases.Cart_Page_Test"/>
+      <class name="testCases.LoginPageTest"/>
+      <class name="testCases.Inventory_Page_Test"/>
+    </classes>
+  </test> <!-- Sanity_Retesting_Regreesion_Test -->
+</suite> <!-- Sanity_Retesting_Regreesion_Suite -->

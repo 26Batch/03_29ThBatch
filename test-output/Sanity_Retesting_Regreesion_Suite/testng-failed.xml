@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity_Retesting_Regreesion_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity_Retesting_Regreesion_Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <exclude name="Retesting"/>
+        <exclude name="Regreesion"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.LoginPageTest">
+        <methods>
+          <include name="verifyURLOfApplicationTest"/>
+        </methods>
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.Cart_Page_Test">
+        <methods>
+          <include name="verifyCartPageUrlTest"/>
+        </methods>
+      </class> <!-- testCases.Cart_Page_Test -->
+      <class name="testCases.Inventory_Page_Test">
+        <methods>
+          <include name="verifyTwitterLogoTest"/>
+        </methods>
+      </class> <!-- testCases.Inventory_Page_Test -->
+    </classes>
+  </test> <!-- Sanity_Retesting_Regreesion_Test(failed) -->
+</suite> <!-- Failed suite [Sanity_Retesting_Regreesion_Suite] -->

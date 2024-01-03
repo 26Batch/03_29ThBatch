@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 03 18:27:47 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>96 seconds (96916 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.CheackOutPage1Test.inputInfoTest()'><b>inputInfoTest</b><br>Test class: testCases.CheackOutPage1Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.CheackOutPage1Test@cecf639</td></tr>
+<tr>
+<td title='testCases.CheackOutPage1Test.verifyURLTest()'><b>verifyURLTest</b><br>Test class: testCases.CheackOutPage1Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.CheackOutPage1Test@cecf639</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.verifyTwitterLogoTest()'><b>verifyTwitterLogoTest</b><br>Test class: testCases.Inventory_Page_Test<br/>
+<a href="#Output-706857959" onClick='toggleBox("Output-706857959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-706857959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-706857959">
+Visibility of TwitterLogotrue<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@7c137fd5</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.add6ProductTest()'><b>add6ProductTest</b><br>Test class: testCases.Inventory_Page_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@7c137fd5</td></tr>
+<tr>
+<td title='testCases.Cart_Page_Test.verifyCartPageLableTest()'><b>verifyCartPageLableTest</b><br>Test class: testCases.Cart_Page_Test<br/>
+<a href="#Output-1322354584" onClick='toggleBox("Output-1322354584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1322354584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1322354584">
+Cart Page lable = Your Cart<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testCases.Cart_Page_Test@cb0755b</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.add6ProductTest()'><b>add6ProductTest</b><br>Test class: testCases.Inventory_Page_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@7c137fd5</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.verifyTitleOfApplicationTest()'><b>verifyTitleOfApplicationTest</b><br>Test class: testCases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPageTest@231f98ef</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.add6ProductTest()'><b>add6ProductTest</b><br>Test class: testCases.Inventory_Page_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@7c137fd5</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.remove2ProductTest()'><b>remove2ProductTest</b><br>Test class: testCases.Inventory_Page_Test<br/>
+<a href="#Output-1095918240" onClick='toggleBox("Output-1095918240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1095918240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1095918240">
+Number of product after removing = 4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@7c137fd5</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.verifyProductLableTest()'><b>verifyProductLableTest</b><br>Test class: testCases.Inventory_Page_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@7c137fd5</td></tr>
+<tr>
+<td title='testCases.Cart_Page_Test.verifyCartPageUrlTest()'><b>verifyCartPageUrlTest</b><br>Test class: testCases.Cart_Page_Test<br/>
+<a href="#Output-291279979" onClick='toggleBox("Output-291279979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-291279979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-291279979">
+Current Page URL of Cart_Page = https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Cart_Page_Test@cb0755b</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.verifyURLOfApplicationTest()'><b>verifyURLOfApplicationTest</b><br>Test class: testCases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPageTest@231f98ef</td></tr>
+<tr>
+<td title='testCases.LoginPageTest.loginToApplicationTest()'><b>loginToApplicationTest</b><br>Test class: testCases.LoginPageTest<br/>
+<a href="#Output-111832087" onClick='toggleBox("Output-111832087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-111832087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111832087">
+After Login inventory Page should be come = https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPageTest@231f98ef</td></tr>
+</table><p>
+</body>
+</html>
